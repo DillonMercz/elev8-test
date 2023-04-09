@@ -55,8 +55,6 @@ ul.ui-autocomplete {
     }
     .login-button{
 
-    	width:100px;
-    	border: 2px solid darkgray;
     	margin-top:10px;
     	margin-bottom:30px;
 
@@ -539,7 +537,7 @@ $(document).ready(function() {
     console.log("No User Found")
     var loginBtn = document.createElement("button");
     loginBtn.innerHTML = "Login";
-    loginBtn.className = "btn login-button"
+    loginBtn.className = "btn login-button btn-success w-100"
     loginBtn.onclick = function() {
       window.location.href = "./login.html";
     }
