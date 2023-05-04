@@ -1477,15 +1477,23 @@ $('#search').on('input', function() {
     // add click handlers for category headers and subcategory items
     $('.autocomplete-header').on('click', function() {
         var category = $(this).data('category');
+<<<<<<< HEAD
         console.log('Clicked on category: ' + category)
         location.href = "./job-detail.html?category =" + window.btoa(category);
+=======
+        console.log('Clicked on category: ' + category);
+>>>>>>> 664ecf5e0151c86cbbbd623f5b375135627b9859
     });
 
     $('.autocomplete-item').on('click', function() {
         var category = $(this).data('category');
         var subcategory = $(this).text();
+<<<<<<< HEAD
         console.log('Clicked on subcategory: ' + subcategory + ' (category: ' + category + ')')
         location.href = "./job-detail.html?category=" + window.btoa(category) +'&subcategory='+window.btoa(subcategory);
+=======
+        console.log('Clicked on subcategory: ' + subcategory + ' (category: ' + category + ')');
+>>>>>>> 664ecf5e0151c86cbbbd623f5b375135627b9859
     });
 
     // show the autocomplete results
@@ -1567,4 +1575,8 @@ $(document).on('click', function(event) {
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 </body>
 
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 664ecf5e0151c86cbbbd623f5b375135627b9859
